@@ -11,7 +11,7 @@ Rails.application.routes.draw do
   get '/signup', to: 'users#new'
 
   # you can delete or comment it (if you wanna save for the future sake..)
-  # post '/signup', to: 'users#create'
+  post '/signup', to: 'users#create'
 
   get '/login', to: 'sessions#new'
 
